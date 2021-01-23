@@ -25,7 +25,6 @@
 .form__input textarea {
   display: block;
   padding: 10px 0;
-
   width: 100%;
   border: none;
   border-bottom: 1px solid $lightGray;
@@ -43,7 +42,7 @@
 
 .form__input input:focus ~ label,
 .form__input input:valid ~ label,
-.form__input textarea:focus ~ label {
+.form__input textarea:valid ~ label {
   top: -20px;
   font-size: 12px;
   transition: all 0.3s ease;
